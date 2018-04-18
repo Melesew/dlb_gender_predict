@@ -23,8 +23,8 @@ predictor = dlib.shape_predictor(model)
 win = dlib.image_window()
 
 # load the input image, resize it, and convert it to grayscale
-female_data_path = '/home/mele/datasets/gender/train/f/*.jpg'
-male_data_path = '/home/mele/datasets/gender/train/m/*.jpg'
+female_data_path = '../../gender/train/f/*.jpg'
+male_data_path = '../../gender/train/m/*.jpg'
 
 male_train_data = glob.glob(male_data_path)
 female_train_data = glob.glob(female_data_path)
